@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+  <section>
+    <h1> Padrões de commits com emojis 💈  </h1>
+    <h2> Front-End </h2>
+    <ul>
+      <li>Commit inicial: 🎉 => "init: :tada: Initial commit" </li>
+      <li>Estrutura do código:  🎨 => "feat: :art: Melhorado estrutura/formato do código” </li>
+      <li>Estilização de interface: 💄 => "feat: :lipstick: Atualizado tema da aplicação" </li>
+      <li>Animações e transições: 💫 => "feat: :dizzy: Adicionada ou atualizada animações e transições" </li>
+      <li>Responsividade: 📱 => "feat: :iphone: Melhorada responsividade X"</li>
+      <li>Novo recurso: ✨ => "feat: :sparkles: Introduzido recurso X" </li>
+      <li>Documentação: 📚 => "docs: :memo: Atualizada documentação" </li>
+      <li>Comentários: 💡=> "docs: :bulb: Adicionados comentários para esclarecer X" </li>
+      <li>Mover/Renomear: 🚚 =>"chore: :truck: Movido arquivo A para o diretório B" </li>
+      <li>Removendo um arquivo: 🔥 => "chore: :fire: Removido arquivo obsoleto" </li>
+      <li>Texto: 📝 => "docs: :page_facing_up: Atualizado README" </li>
+      <li>Configuração: 🔧=> "chore: :wrench: Configurado ambiente de desenvolvimento" </li>
+      <li>Performance: ⚡ => "perf: :zap: Otimizado carregamento de imagens"</li>
+      <li>Em progresso: 🚧 => "feat: :construction: Recurso X ainda em desenvolvimento" </li>
+      <li>Código ruim 💩 => "build: :poop: Código ruim, em evolução" </li>
+      <li>Acessibilidade: ♿ => "feat: :wheelchair: Adicionado suporte para leitores de tela"</li>    
+    </ul>
+    <h2>Back-End</h2>
+    <ul>
+      <li>Deploy: 🚀 => "deploy: :rocket: Nova versão X lançada" </li>
+      <li>Refatoração: ♻️ => "refactor: :recycle: Refatoração X" </li>
+      <li>Bugfix: 🐛=> "fix: :bug: Corrigido bug que causava falha" </li>
+      <li>Tag de versão: 🔖 => "release: :bookmark: Versão X" </li>
+      <li>Revertendo mudanças: 💥 => "fix: :boom: Revertida versão devido a problemas encontrados" </li>
+      <li>Adicionando uma dependência: ➕ => "build: :heavy_plus_sign: Adicionada biblioteca X" </li>
+      <li>Removendo uma dependência: ➖ => "build: :heavy_minus_sign: Removida biblioteca não utilizada" </li>
+      <li>Adicionando um teste: ✅ => “test: :white_check_mark: Adicionado teste unitário para a funcionalidade X" </li>
+      <li>Testes: 🧪 => "test: :test_tube: Adicionados testes de unidade para o módulo X" </li>
+      <li>Infraestrutura: 🧱 => "ci: :bricks: Mudança relacionado a mudança X" </li>
+      <li>Package.json em JS: 📦 => "build: :package: Atualizadas dependências no package.json" </li>
+      <li>Segurança: 🔒️ => "chore: :lock: Atualizadas políticas de segurança" </li>
+      <li>SEO: 🔍️ => "chore: :mag: Otimizações para SEO" </li>
+      <li>Tipagem: 🏷️ => "chore: :label: Adicionados tipos no módulo X" </li>
+      <li>Tratamento de erros: 🥅 => "fix: :goal_net: Adicionado tratamento de erro X" </li>    
+    </ul>
+  </section>
+  <section>
+    <h1> Comandos Git </h1>
+    <h2> Atalhos de teclas  </h2>
+    <ul>
+      <li>Tecla Tab => Usado para autocomplete. </li>
+      <li>Tecla ArrowUp => Volta o último comando digitado. </li>
+    </ul>
+    <h2>Configuração Inicial do Git</h2>
+    <ul>
+      <li>Setar usuário => git config –global user.name “<seu nome>” </li>
+      <li>Setar email => git config –global user.email “<seu e-mail>” </li>
+      <li>Setar arquivo a ser ignorado => git config –global core.excludesfile ~/.gitignore </li>
+    </ul>
+    <h2>Repositório Local</h2>
+    <ul>
+      <li>Listar configurações / comandos: git config --list </li>
+      <li>Criar repositório: git init </li>
+      <li>Add arquivos: git add <seu arquivo.extensão> (Ponto adiciona todos os arquivos (.)) </li>
+      <li>Alterar nome da Branch: git branch -M <nome> (Usualmente <main>) </li>
+      <li>Criar um novo Branch local: git checkout -b <nome> (Usualmente <main>) </li>
+      <li>Deletar Branch existente local: git branch -d <nome> (Geralmente master) </li>
+      <li>Add arquivos do .gitignore: git add -f <seu arquivo.extensão> </li>
+      <li>Verificar arquivos: git status </li>
+    </ul>
+    <h2>Repositório Remoto </h2>
+    <ul>
+      <li>Clonar repositório: git clone git@github.com:<nome usuário>/<repositório> </li>
+      <li>Vincular repositório remoto: git remote add origin <URL> </li>
+      <li>Enviar arquivo para repositório remoto: git push -u origin <nome da Branch> </li>
+      <li>Atualizar a Branch local com a Branch remota: git pull </li>
+      <li>Exibir repositório remotos: git remote -v </li>
+      <li>Exibir informações: git remote show origin </li>
+      <li>Renomear repositório remote: git remote rename origin <nome repositório> </li>
+    </ul>
+    <h1>Terminal</h1>
+    <h2>Navegação terminal</h2>
+    <ul>
+      <li>dir => Listar os diretórios contidos na pasta atual. </li>
+      <li>Ls => Listar conteúdo na pasta atual. </li>
+      <li>cd => Change Directory, mudar diretório, usado para navegar  </li>
+      <li>cd/ => Usado para voltar para a base do diretório de navegação. </li>
+      <li>cd.. => Usado para voltar um nível na navegação nas pastas. </li>
+      <li>clear => Clear Screem, limpa todo o terminal. </li>
+      <li>mv/ => Mover diretório. </li>
+      <li>mkdir => Make Directory, Criar diretório. </li>
+      <li>rmdir => Remover diretório. </li>
+      <li>echo => Devolve o que é digitado. </li>
+      <li>pwd => Mostra o caminho do diretório completo. </li>
+      <li>cat => Mostra o conteúdo do arquivo. </li>
+      <li>rm –rf .git => Usado no GitBash dentro da pasta do arquivo para deletar todas as configurações Git do projeto. </li>
+    </ul>
+  </section>
+  <section>
+    <h1>JavaScript</h1>
+    <h2>Tipos de dados </h2>
+    <ul>
+      <li>Primitivos => boolean | null | undefined | number | string | symbol | 
+
+        short |byte | int | long | float | double | char | </li>
+      <li>Wrappers => É uma classe, objeto que tem como padrão tipo de dados primitivos. 
+
+        Ex.: Short num1 = new (Short(1)) => Criação encapsulada de um Short com número ‘1’. 
+        
+        Shot | Byte | Integer | Long | Long | Float | Double | Boolean | Character </li>
+    </ul>
+  </section>
+  
+  
+</body>
+</html>
