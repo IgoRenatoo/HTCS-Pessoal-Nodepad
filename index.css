@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+section {
+  width: 400px;
+  padding: 0px 0px 0px 25px;
+  border: 1px solid red;
+  gap: 10px;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./global.css">
+  <title>Anotações e Resumos</title>
+  <link rel="stylesheet" href="./index.css">
+
+
+  <!-- Adição do Normalize.Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
   <section>
-    <h1> Padrões de commits com emojis 💈  </h1>
+    <h1> Padrões de commits com emojis 💈 </h1>
     <h2> Front-End </h2>
     <ul>
       <li>Commit inicial: 🎉 => "init: :tada: Initial commit" </li>
-      <li>Estrutura do código:  🎨 => "feat: :art: Melhorado estrutura/formato do código” </li>
+      <li>Estrutura do código: 🎨 => "feat: :art: Melhorado estrutura/formato do código” </li>
       <li>Estilização de interface: 💄 => "feat: :lipstick: Atualizado tema da aplicação" </li>
       <li>Animações e transições: 💫 => "feat: :dizzy: Adicionada ou atualizada animações e transições" </li>
       <li>Responsividade: 📱 => "feat: :iphone: Melhorada responsividade X"</li>
@@ -26,7 +34,7 @@
       <li>Performance: ⚡ => "perf: :zap: Otimizado carregamento de imagens"</li>
       <li>Em progresso: 🚧 => "feat: :construction: Recurso X ainda em desenvolvimento" </li>
       <li>Código ruim 💩 => "build: :poop: Código ruim, em evolução" </li>
-      <li>Acessibilidade: ♿ => "feat: :wheelchair: Adicionado suporte para leitores de tela"</li>    
+      <li>Acessibilidade: ♿ => "feat: :wheelchair: Adicionado suporte para leitores de tela"</li>
     </ul>
     <h2>Back-End</h2>
     <ul>
@@ -44,49 +52,56 @@
       <li>Segurança: 🔒️ => "chore: :lock: Atualizadas políticas de segurança" </li>
       <li>SEO: 🔍️ => "chore: :mag: Otimizações para SEO" </li>
       <li>Tipagem: 🏷️ => "chore: :label: Adicionados tipos no módulo X" </li>
-      <li>Tratamento de erros: 🥅 => "fix: :goal_net: Adicionado tratamento de erro X" </li>    
+      <li>Tratamento de erros: 🥅 => "fix: :goal_net: Adicionado tratamento de erro X" </li>
     </ul>
   </section>
   <section>
     <h1> Comandos Git </h1>
-    <h2> Atalhos de teclas  </h2>
+    <h2> Atalhos de teclas </h2>
     <ul>
       <li>Tecla Tab => Usado para autocomplete. </li>
       <li>Tecla ArrowUp => Volta o último comando digitado. </li>
     </ul>
     <h2>Configuração Inicial do Git</h2>
     <ul>
-      <li>Setar usuário => git config –global user.name “<seu nome>” </li>
-      <li>Setar email => git config –global user.email “<seu e-mail>” </li>
+      <li>Setar usuário => git config –global user.name <'seu nome>
+      </li>
+      <li>Setar email => git config –global user.email <'seu e-mail>
+      </li>
       <li>Setar arquivo a ser ignorado => git config –global core.excludesfile ~/.gitignore </li>
     </ul>
     <h2>Repositório Local</h2>
     <ul>
       <li>Listar configurações / comandos: git config --list </li>
       <li>Criar repositório: git init </li>
-      <li>Add arquivos: git add <seu arquivo.extensão> (Ponto adiciona todos os arquivos (.)) </li>
-      <li>Alterar nome da Branch: git branch -M <nome> (Usualmente <main>) </li>
-      <li>Criar um novo Branch local: git checkout -b <nome> (Usualmente <main>) </li>
-      <li>Deletar Branch existente local: git branch -d <nome> (Geralmente master) </li>
-      <li>Add arquivos do .gitignore: git add -f <seu arquivo.extensão> </li>
+      <li>Add arquivos: git add <'seu arquivo.extensão> (Ponto adiciona todos os arquivos (.)) </li>
+      <li>Alterar nome da Branch: git branch -M < nome> (Usualmente main) </li>
+      <li>Criar um novo Branch local: git checkout -b <'main> (Usualmente main) </li>
+      <li>Deletar Branch existente local: git branch -d <'nome> (Geralmente master) </li>
+      <li>Add arquivos do .gitignore: git add -f <'seu arquivo.extensão>
+      </li>
       <li>Verificar arquivos: git status </li>
     </ul>
     <h2>Repositório Remoto </h2>
     <ul>
-      <li>Clonar repositório: git clone git@github.com:<nome usuário>/<repositório> </li>
-      <li>Vincular repositório remoto: git remote add origin <URL> </li>
-      <li>Enviar arquivo para repositório remoto: git push -u origin <nome da Branch> </li>
+      <li>Clonar repositório: git clone git@github.com:<'nome usuário>/<'repositório>
+      </li>
+      <li>Vincular repositório remoto: git remote add origin <URL>
+      </li>
+      <li>Enviar arquivo para repositório remoto: git push -u origin <'nome da Branch>
+      </li>
       <li>Atualizar a Branch local com a Branch remota: git pull </li>
       <li>Exibir repositório remotos: git remote -v </li>
       <li>Exibir informações: git remote show origin </li>
-      <li>Renomear repositório remote: git remote rename origin <nome repositório> </li>
+      <li>Renomear repositório remote: git remote rename origin <'nome repositório>
+      </li>
     </ul>
     <h1>Terminal</h1>
     <h2>Navegação terminal</h2>
     <ul>
       <li>dir => Listar os diretórios contidos na pasta atual. </li>
       <li>Ls => Listar conteúdo na pasta atual. </li>
-      <li>cd => Change Directory, mudar diretório, usado para navegar  </li>
+      <li>cd => Change Directory, mudar diretório, usado para navegar </li>
       <li>cd/ => Usado para voltar para a base do diretório de navegação. </li>
       <li>cd.. => Usado para voltar um nível na navegação nas pastas. </li>
       <li>clear => Clear Screem, limpa todo o terminal. </li>
@@ -96,31 +111,195 @@
       <li>echo => Devolve o que é digitado. </li>
       <li>pwd => Mostra o caminho do diretório completo. </li>
       <li>cat => Mostra o conteúdo do arquivo. </li>
-      <li>rm –rf .git => Usado no GitBash dentro da pasta do arquivo para deletar todas as configurações Git do projeto. </li>
+      <li>rm –rf .git => Usado no GitBash dentro da pasta do arquivo para deletar todas as configurações Git do projeto.
+      </li>
     </ul>
   </section>
   <section>
     <h1>JavaScript</h1>
     <h2>Tipos de dados </h2>
     <ul>
-      <li>Primitivos => boolean | null | undefined | number | string | symbol | 
+      <li>Primitivos => boolean | null | undefined | number | string | symbol |
 
         short |byte | int | long | float | double | char | </li>
-      <li>Wrappers => É uma classe, objeto que tem como padrão tipo de dados primitivos. 
+      <li>Wrappers => É uma classe, objeto que tem como padrão tipo de dados primitivos.
 
-        Ex.: Short num1 = new (Short(1)) => Criação encapsulada de um Short com número ‘1’. 
-        
+        Ex.: Short num1 = new (Short(1)) => Criação encapsulada de um Short com número ‘1’.
+
         Shot | Byte | Integer | Long | Long | Float | Double | Boolean | Character </li>
-        <li>First Classe Function => São aquelas que podem ser tratadas como qualquer outra variável </li>
-        <li>Higher Order Function => São aquelas que aceitam outras funções como argumentos e/ou retornam funções. </li>
-        <li>Diferença de function explicita e arrow function => Além da syntax, Function: Quando uma função entra dentro de um objeto, ela assume o termo do objeto e o ‘this’ passa a ser o objeto. </li>
-        <li>ArrowFunction: Não tem um contexto, não tem o termo ‘this’. </li>
-        <li>Closures => Ferramenta em JavaScript que permitem que funções mantenham acesso a variáveis de um escopo externo mesmo após a execução do código que as criou. </li>
-        <li>call(): O método call() é usado para chamar uma função com um valor específico para this e argumentos individuais separados por vírgula.  </li>
-        <li>apply(): O método apply() é semelhante ao call(), mas em vez de passar os argumentos individualmente, você passa os argumentos como um array. </li>      
+      <li>First Classe Function => São aquelas que podem ser tratadas como qualquer outra variável </li>
+      <li>Higher Order Function => São aquelas que aceitam outras funções como argumentos e/ou retornam funções. </li>
+      <li>Diferença de function explicita e arrow function => Além da syntax, Function: Quando uma função entra dentro
+        de um objeto, ela assume o termo do objeto e o ‘this’ passa a ser o objeto. </li>
+      <li>ArrowFunction: Não tem um contexto, não tem o termo ‘this’. </li>
+      <li>Closures => Ferramenta em JavaScript que permitem que funções mantenham acesso a variáveis de um escopo
+        externo mesmo após a execução do código que as criou. </li>
+      <li>call(): O método call() é usado para chamar uma função com um valor específico para this e argumentos
+        individuais separados por vírgula. </li>
+      <li>apply(): O método apply() é semelhante ao call(), mas em vez de passar os argumentos individualmente, você
+        passa os argumentos como um array. </li>
     </ul>
   </section>
-  
-  
+  <section>
+    <h1> HTML </h1>
+    <h2> TYPES DE INPUT PARA FORMS </h2>
+    <h3> Types => text, number, password, e-mail, tel, file, image, url, range, search, color, textarea. </h3>
+    <ul>
+      <div>
+        <li>Text (Texto) => Permite que os usuários insiram texto alfanumérico.</li>
+        <span>Uso: Ideal para entrada de informações como nomes, endereços, comentários etc.</span>
+      </div>
+      <div>
+        <li>Number (Número) => Aceita apenas valores numéricos, inteiros ou decimais.</li>
+        <p>Uso: Útil para inserir quantidades, valores monetários, pontuações etc.</p>
+        <p>Atributos: min, max, step.</p>
+      </div>
+      <div>
+        <li>Password (Senha) => Similar ao input de texto, mas oculta os caracteres digitados.</li>
+        <p>Uso: Para inserir senhas ou outros dados confidenciais, garantindo privacidade e segurança.</p>
+        <p>Atributos: min, max, step.</p>
+      </div>
+      <div>
+        <li>Email (E-mail) => Aceita e-mails válidos no formato correto.</li>
+        <p>Uso: Utilizado em formulários onde os usuários devem inserir endereços de e-mail.</p>
+      </div>
+      <div>
+        <li>Tel (Telefone) => Aceita números de telefone válidos e pode exibir um teclado numérico no dispositivo móvel.
+        </li>
+        <p>Uso: Utilizado em formulários onde os usuários devem inserir números de telefone.</p>
+      </div>
+      <div>
+        <li>File (Arquivo) => Permite que os usuários selecionem um arquivo do seu dispositivo para upload.</li>
+        <p>Exemplo: Upload de imagens em redes sociais ou anexos de e-mails.</p>
+        <p>Atributo: multiple.</p>
+      </div>
+      <div>
+        <li>Image (Imagem) => É um botão que exibe uma imagem e executa uma ação quando clicado.</li>
+        <p>Uso: Pode ser usado para criar botões personalizados com imagens em vez de texto.</p>
+      </div>
+      <div>
+        <li>URL => Aceita URLs válidas.</li>
+        <p>Uso: Utilizado em formulários onde os usuários devem inserir endereços da web.</p>
+      </div>
+      <div>
+        <li>Range (Intervalo) => Permite que os usuários selecionem um valor em um intervalo definido.</li>
+        <p>Uso: Útil para seleção de valores dentro de um intervalo predefinido, como faixas de preços.</p>
+        <p>Atributos: min, max, step, value.</p>
+      </div>
+      <div>
+        <li>Search (Pesquisa) => Oferece um campo de pesquisa com um botão de pesquisa integrado.</li>
+        <p>Uso: Útil para permitir que os usuários realizem pesquisas dentro de um site ou aplicativo.</p>
+      </div>
+      <div>
+        <li>Color (Cor) => Permite que os usuários selecionem uma cor usando um seletor de cores integrado ao navegador.
+        </li>
+        <p>Uso: Útil quando os usuários precisam escolher cores para elementos de design ou personalização.</p>
+      </div>
+      <div>
+        <li>Textarea (Área de Texto) => Permite que os usuários insiram texto em um campo de entrada de várias linhas.
+        </li>
+        <p>Uso: Útil quando é necessário restringir o tamanho do texto inserido, como em campos de comentários</p>
+        <p>Atributos: rows, cols, minlength, maxlength, required.</p>
+      </div>
+      <h2>SELETORES</h2>
+      <h3>Types => checkbox, radio, hidden, datalist, select, optgroup, option.</h3>
+      <div>
+        <li>Checkbox => Permite que os usuários selecionem uma ou mais opções de uma lista.</li>
+        <p>Uso: Útil quando há várias opções e os usuários podem escolher uma ou mais delas.</p>
+        <p>Atributos: name=’list[]’, disabled.</p>
+      </div>
+      <div>
+        <li>Radio => Permite que os usuários selecionem apenas uma opção de uma lista exclusiva.</li>
+        <p>Uso: Quando há uma lista de opções mutuamente exclusivas e os usuários devem escolher apenas uma delas.</p>
+        <p>Atributos: name=, disabled.</p>
+      </div>
+      <div>
+        <li>Hidden (Escondido) => É um campo de formulário que não é exibido para o usuário.</li>
+        <p>Uso: Pode ser usado para passar informações ocultas para o servidor durante a submissão de formulários.</p>
+      </div>
+      <div>
+        <li>Datalist => É utilizado para criar uma lista de opções para um campo de entrada, permite selecionar valores
+          pré-definidos ou inserir um novo valor.</li>
+        <p>Uso: Combinado com a tag <'input> para fornecer sugestões ou opções em campos de entrada de formulários.</p>
+        <p>Atributos: id, value, name, form, size.</p>
+      </div>
+      <div>
+        <li>Select => É utilizada em HTML para criar um elemento de seleção, que permite aos usuários escolher uma ou
+          mais
+          opções de uma lista pré-definida.</li>
+        <p>Uso: Utilizada em formulários web para oferecer aos usuários uma maneira de selecionar uma opção de uma
+          lista.</p>
+        <p>Atributos: name, multiple, disabled, required, size, onchance.</p>
+      </div>
+      <div>
+        <li>Optgroup => Quando há necessidade de organizar as opções dentro do elemento de seleção em grupos lógicos.
+        </li>
+        <p>Utilidade: É utilizada dentro de uma tag <select> para agrupar opções relacionadas.</p>
+        <p>Atributos: label.</p>
+      </div>
+      <div>
+        <li>Option => Cada <option> representa uma escolha dentro do elemento de seleção.</li>
+        <p>Uso: É utilizada dentro de uma tag <select> para definir uma opção de escolha para o usuário.</p>
+        <p>Atributos: value, selected;</p>
+      </div>
+      <h2>ATRIBUTOS DE FORMULÁRIOS</h2>
+      <h3>Types => method, target, action, autocomplete, onclick, onsubmit.</h3>
+      <div>
+        <li>Method => Define como os dados do formulário serão enviados para o servidor quando for submetido.</li>
+        <p>Opções:</p>
+        <p>GET: Envia os dados do formulário como uma string de consulta na URL.</p>
+        <p>POST: Envia os dados do formulário no corpo da requisição HTTP.</p>
+      </div>
+      <div>
+        <li>Target => Especifica onde abrir a resposta do envio do formulário.</li>
+        <p>Opções:</p>
+        <p>_self: Abre a resposta no mesmo quadro ou janela em que o formulário foi submetido.</p>
+        <p>_blank: Abre a resposta em uma nova janela ou aba.</p>
+        <p>_parent: Abre a resposta no quadro pai do quadro atual (se houver).</p>
+        <p>_top: Abre a resposta no corpo completo da janela atual.</p>
+      </div>
+      <div>
+        <li>Action (Ação) => O atributo "action" específica para onde enviar os dados do formulário quando este é
+          submetido.</li>
+        <p>Uso: Define o URL do script ou página que processará os dados do formulário.</p>
+      </div>
+      <div>
+        <li>Autocomplete => Fornece sugestões automáticas enquanto o usuário digita, com base em entradas anteriores.
+        </li>
+        <p>Uso: Campo de busca em um site que sugere resultados à medida que o usuário digita.</p>
+      </div>
+      <h2>TYPES DE INPUT PARA DATA E HORA</h2>
+      <h3>Types => data, time, datatime, weekday, week, month, year.</h3>
+      <div>
+        <li>Date (Data) => Oferece um calendário ou um seletor de data para selecionar uma data específica.</li>
+        <p>Uso: Para inserir datas em formulários, como datas de nascimento, datas de eventos etc.</p>
+      </div>
+      <div>
+        <li>Time (Hora) => Permite que os usuários selecionem uma hora específica.</li>
+        <p>Uso: Útil para inserir horários de eventos, horários de funcionamento etc.</p>
+      </div>
+      <div>
+        <li>Datetime (Data e Hora) => Permite que os usuários selecionem uma data e hora específicas.</li>
+        <p>Uso: Útil para agendamento de eventos que ocorrem em momentos específicos.</p>
+      </div>
+      <div>
+        <li>Weekday (Dia da Semana) => Permite que os usuários selecionem um dia da semana.</li>
+        <p>Uso: Útil para agendamento de eventos recorrentes em dias específicos da semana.</p>
+      </div>
+      <div>
+        <li>Week (Semana) => Permite que os usuários selecionem uma semana e um ano.</li>
+        <p>Uso: Similar ao tipo "month", mas usado quando a granularidade da seleção é semanal.</p>
+      </div>
+      <div>
+        <li>Month (Mês) => Permite que os usuários selecionem um mês e um ano.</li>
+        <p>Uso: Útil para inserir datas de eventos mensais, vencimentos de contas etc.</p>
+      </div>
+      <div>
+        <li>Year (Ano) => Permite que os usuários selecionem um ano específico.</li>
+        <p>Uso: Útil para inserir anos em formulários, como datas de nascimento, datas de eventos etc.</p>
+      </div>
+  </section>
 </body>
+<script src="./index.js"></script>
+
 </html>
