@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body {
   display: flex;
 }
@@ -13,7 +12,6 @@ section {
   border: 1px solid red;
   gap: 10px;
 }
-
 section ul {
   display: flex;
   flex-direction: column;

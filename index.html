@@ -144,6 +144,7 @@
     <h1> HTML </h1>
     <h2> TYPES DE INPUT PARA FORMS </h2>
     <h3> Types => text, number, password, e-mail, tel, file, image, url, range, search, color, textarea. </h3>
+
     <ul>
       <div>
         <li>Text (Texto) => Permite que os usuários insiram texto alfanumérico.</li>
@@ -201,8 +202,11 @@
         <p>Uso: Útil quando é necessário restringir o tamanho do texto inserido, como em campos de comentários</p>
         <p>Atributos: rows, cols, minlength, maxlength, required.</p>
       </div>
-      <h2>SELETORES</h2>
-      <h3>Types => checkbox, radio, hidden, datalist, select, optgroup, option.</h3>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>SELETORES</h2>
+    <h3>Types => checkbox, radio, hidden, datalist, select, optgroup, option.</h3>
+    <ul>
       <div>
         <li>Checkbox => Permite que os usuários selecionem uma ou mais opções de uma lista.</li>
         <p>Uso: Útil quando há várias opções e os usuários podem escolher uma ou mais delas.</p>
@@ -218,9 +222,11 @@
         <p>Uso: Pode ser usado para passar informações ocultas para o servidor durante a submissão de formulários.</p>
       </div>
       <div>
-        <li>Datalist => É utilizado para criar uma lista de opções para um campo de entrada, permite selecionar valores
+        <li>Datalist => É utilizado para criar uma lista de opções para um campo de entrada, permite selecionar
+          valores
           pré-definidos ou inserir um novo valor.</li>
-        <p>Uso: Combinado com a tag <'input> para fornecer sugestões ou opções em campos de entrada de formulários.</p>
+        <p>Uso: Combinado com a tag <'input> para fornecer sugestões ou opções em campos de entrada de formulários.
+        </p>
         <p>Atributos: id, value, name, form, size.</p>
       </div>
       <div>
@@ -242,8 +248,11 @@
         <p>Uso: É utilizada dentro de uma tag <'select> para definir uma opção de escolha para o usuário.</p>
         <p>Atributos: value, selected;</p>
       </div>
-      <h2>ATRIBUTOS DE FORMULÁRIOS</h2>
-      <h3>Types => method, target, action, autocomplete, onclick, onsubmit.</h3>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>ATRIBUTOS DE FORMULÁRIOS</h2>
+    <h3>Types => method, target, action, autocomplete, onclick, onsubmit.</h3>
+    <ul>
       <div>
         <li>Method => Define como os dados do formulário serão enviados para o servidor quando for submetido.</li>
         <p>Opções:</p>
@@ -268,8 +277,71 @@
         </li>
         <p>Uso: Campo de busca em um site que sugere resultados à medida que o usuário digita.</p>
       </div>
-      <h2>TYPES DE INPUT PARA DATA E HORA</h2>
-      <h3>Types => data, time, datatime, weekday, week, month, year.</h3>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>TAG DE TEXTO </h2>
+    <ul>
+      <li>Tags => i, b, strong, u, mark, sup, sub, blockquote, font, fieldset, legend </li>
+      <li>Tag <'i> => Pode ser usado para indicar texto em itálico.</li>
+      <li>Tag <'b> e <'strong> => Usado para destacar texto importante em negrito.</li>
+      <li>Tag <'u> => Utilizado para sublinhar texto. </li>
+      <li>Tag <'mark> => Usado para destacar partes específicas de um texto, como termos de pesquisa. </li>
+      <li>Tag <'sup> => Utilizado para expoentes, como em equações matemáticas ou datas.</li>
+      <li>Tag <'sub> => Usado para índices, como em fórmulas químicas ou expressões matemáticas. </li>
+      <li>Tag <'blockquote> => Utilizado para citações longas de outros autores, ajudando a distinguir o texto citado
+          do texto original.</li>
+      <li>Tags <'fieldset> e <'legend> => Usados juntos para agrupar elementos relacionados em um formulário com uma
+            legenda descritiva. </li>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>TAG DE TABELA</h2>
+    <ul>
+      <li>Tags de Tabela => <'th> (table header cell), <'tr> (table row), <'td> (table data)</li>
+      <div>
+        <li>Tag <'th> (table header cell) => Usada para definir células de cabeçalho em uma tabela HTML. O conteúdo
+            dentro de uma célula <'th> geralmente é exibido em negrito e centralizado por padrão.</li>
+        <p>Uso: Criação de cabeçalhos de coluna ou linha em uma tabela HTML. </p>
+        <p>Atributos: cellspacing, cellpadding, summary, title, thead.</p>
+      </div>
+      <div>
+        <li>Tag <'tr> (table row) => Usada para definir uma linha em uma tabela HTML. Ela contém uma ou mais células
+            de
+            tabela, representadas por <'td> ou <'th>. </li>
+        <p>Uso: Você deve usar <'tr> para cada linha em sua tabela. </p>
+        <p>Atributos: cellspacing, cellpadding, summary, title, tfoot. </p>
+      </div>
+      <div>
+        <li>Tag <'td> (table data) => Usada para definir células de dados em uma tabela HTML. O conteúdo dentro de uma
+            célula <'td> é geralmente exibido como texto normal e é usado para representar os dados reais na tabela.
+        </li>
+        <p>Uso: Você deve usar <'td> para cada célula de dados em sua tabela.</p>
+        <p>Atributos: cellspacing, cellpadding, summary, title, tbody. </p>
+      </div>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>TAG DE MÍDIA</h2>
+    <ul>
+      <li>Tags => img, audio, video, iframe </li>
+      <div>
+        <li>Video e Audio (Vídeo/Audio) => Permite a inserção de vídeos em um documento HTML.</li>
+        <p>Uso: Ideal para incorporar vídeos em páginas da web para entretenimento, instrução ou apresentação. </p>
+        <p>Atributos: src, controls, autoplay, loop.</p>
+      </div>
+      <div>
+        <li>Img (Imagem) => Exibe uma imagem em uma página da web. </li>
+        <p>Uso: Ideal para mostrar fotos, gráficos ou ilustrações em um site. </p>
+        <p>Atributos: src, alt, width, height. </p>
+      </div>
+      <div>
+        <li>Iframe => Permite incorporar uma página web dentro de outra. </li>
+        <p>Uso: Útil para exibir conteúdo de terceiros, como mapas, vídeos incorporados ou widgets.</p>
+        <p>Atributos: src, width, height, frameborder. </p>
+      </div>
+    </ul>
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+    <h2>TYPES DE INPUT PARA DATA E HORA</h2>
+    <h3>Types => data, time, datatime, weekday, week, month, year.</h3>
+    <ul>
       <div>
         <li>Date (Data) => Oferece um calendário ou um seletor de data para selecionar uma data específica.</li>
         <p>Uso: Para inserir datas em formulários, como datas de nascimento, datas de eventos etc.</p>
@@ -298,116 +370,7 @@
         <li>Year (Ano) => Permite que os usuários selecionem um ano específico.</li>
         <p>Uso: Útil para inserir anos em formulários, como datas de nascimento, datas de eventos etc.</p>
       </div>
-      <article id="inConstruction">
-        TAG DE TEXTO 
-
-Tags => i, b, strong, u, mark, sup, sub, blockquote, font, fieldset, legend 
-
-Tag <i> => Pode ser usado para indicar texto em itálico. 
-
-Uso: Quando deseja adicionar um toque de elegância ao texto, como citar um termo estrangeiro. 
-
-  
-
-Tag <strong> => Usado para destacar texto importante. 
-
-Uso: Sempre que for enfatizar um ponto importante em um aviso ou alerta. 
-
-  
-
-Tag <u> => Utilizado para sublinhar texto. 
-
-Uso: Sempre que for chamar a atenção para um link ou para uma palavra-chave em um texto. 
-
-  
-
-tag <mark> => Usado para destacar partes específicas de um texto, como termos de pesquisa. Exemplo: <mark>Texto destacado</mark>. 
-
-  
-
-<sup>: Utilizado para expoentes, como em equações matemáticas ou datas. Exemplo: 10<sup>2</sup> para representar 10 ao quadrado. 
-
-  
-
-<sub>: Usado para índices, como em fórmulas químicas ou expressões matemáticas. Exemplo: H<sub>2</sub>O para representar água. 
-
-  
-
-<blockquote>: Utilizado para citações longas de outros autores, ajudando a distinguir o texto citado do texto original. Exemplo: 
-
-  
-
-<fieldset> e <legend>: Usados juntos para agrupar elementos relacionados em um formulário com uma legenda descritiva. Exemplo: 
-
-  
-
-  
-
-  
-
-<u>: Quando quero chamar a atenção para um link ou para uma palavra-chave em um texto, eu a sublinho usando a tag <u>. Por exemplo: "Clique <u>aqui</u> para mais informações." 
-
-  
-
-<mark>: Ao destacar termos de pesquisa ou partes importantes de um texto, eu envolvo essas partes com a tag <mark>. Por exemplo: "O autor <mark>destacou</mark> as passagens mais importantes do livro." 
-
-  
-
-<sup>: Em textos acadêmicos ou científicos, utilizo a tag <sup> para expoentes, como em fórmulas matemáticas ou datas. Por exemplo: "A equação para calcular a área de um círculo é πr<sup>2</sup>." 
-
-  
-
-<sub>: Em química ou matemática, é comum usar a tag <sub> para índices, como em fórmulas químicas ou expressões matemáticas. Por exemplo: "A fórmula da água é H<sub>2</sub>O." 
-
-  
-
-<blockquote>: Quando quero incluir uma citação longa de outro autor em um texto, eu uso a tag <blockquote> para indicar claramente que é uma citação. Por exemplo: "Como disse Albert Einstein: <blockquote>A imaginação é mais importante que o conhecimento.</blockquote>" 
-
-  
-
-<fieldset> e <legend>: Em formulários da web, uso <fieldset> e <legend> para agrupar elementos relacionados e fornecer uma legenda descritiva para o grupo. Por exemplo: "No formulário de registro, o <legend>Informações Pessoais</legend> agrupa campos como nome, endereço e telefone." 
-
- 
-
-TAG DE TABELA 
-
-Tags de Tabela => th, tr, td 
-
-Atributos table => cellspacing, cellpadding, summary, title, thead, tbody, tfoot 
-
- 
-
-<th> (table header cell): 
-
-  
-
-Definição: A tag <th> é usada para definir células de cabeçalho em uma tabela HTML. O conteúdo dentro de uma célula <th> geralmente é exibido em negrito e centralizado por padrão, e é usado para identificar ou descrever o conteúdo das células em uma determinada coluna ou linha. 
-
-Quando utilizar: Você deve usar <th> quando estiver criando cabeçalhos de coluna ou linha em uma tabela HTML. Por exemplo, ao criar uma tabela de dados onde a primeira linha contém os cabeçalhos das colunas, você deve usar <th> para cada célula dessa linha. 
-
-<'tr> (table row): 
-
-  
-
-Definição: A tag <'tr> é usada para definir uma linha em uma tabela HTML. Ela contém uma ou mais células de tabela, representadas por <td> ou <th>. 
-
-Quando utilizar: Você deve usar <'tr> para cada linha em sua tabela. Cada <'tr> agrupa células de dados ou cabeçalhos que compartilham uma relação semântica ou visual. Por exemplo, ao exibir dados tabulares onde cada linha representa um item em uma lista, você deve usar <tr> para agrupar as células que representam os atributos desse item. 
-
-<'td> (table data cell): 
-
-  
-
-Definição: A tag <'td> é usada para definir células de dados em uma tabela HTML. O conteúdo dentro de uma célula <td> é geralmente exibido como texto normal e é usado para representar os dados reais na tabela. 
-
-Quando utilizar: Você deve usar <'td> para cada célula de dados em sua tabela. Por exemplo, ao exibir uma tabela de informações sobre produtos, cada célula <td> pode conter detalhes como nome, preço, descrição, etc. Elas são as células "normais" de uma tabela, em contraste com os cabeçalhos representados por <th>. 
-
- 
-
-TAG DE MÍDIA 
-
-Tags => img, audio, video, track, iframe 
-      </article>
-  </section>
+    </ul>
 </body>
 <script src="./index.js"></script>
 
