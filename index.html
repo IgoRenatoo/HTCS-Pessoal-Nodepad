@@ -371,6 +371,184 @@
         <p>Uso: Útil para inserir anos em formulários, como datas de nascimento, datas de eventos etc.</p>
       </div>
     </ul>
+  </section>
+  <!-- ------------------------------------------------------------------------------------------------------- -->
+  <section>
+    <h1>CSS</h1>
+    <ul>
+      <li>CSS
+
+
+
+        SELETORES CSS
+
+        Universais => Selecionam todos os elementos da página, representados por um asterisco (*)
+
+        Elemento => Selecionam elementos HTML pelo seu nome da tag, como p, div, h1, etc.
+
+        Classe => Selecionam elementos com base no valor do atributo class, precedido por um (.), como .minha-classe.
+
+        ID => Selecionam um elemento com base no valor do atributo id, precedido por uma (#), como #meu-id.
+
+        Atributo => Selecionam elementos com base no valor de um atributo específico, como [type="text"] ou
+        [href^="https://"]
+
+        Descendente => Selecionam elementos que são descendentes diretos ou indiretos de outro elemento, separados por
+        um espaço, como div p.
+
+        Agrupamento Seletores => É uma técnica que permite aplicar estilos a vários elementos com propriedades e valores
+        idênticos em uma única regra separador por uma vírgula (,).
+
+
+
+        PROPRIEDADE DIMENSIONAMENTO
+
+        Margin => Usado para controlar o espaçamento externo entre elementos.
+
+        Padding => Usado para controlar o espaçamento interno entre o conteúdo de um elemento e sua borda.
+
+        Object-fit => Utilizada para especificar como um elemento <img> ou <video> deve ser redimensionado para se
+          ajustar ao seu contêiner. Valores: fill, contain, cover, scale-down e none.
+
+          Object-position => Controlar como o conteúdo substituído é dimensionado e posicionado dentro de seu contêiner.
+
+          Min/max-width => largura mínima ou máxima; Min/max-height => altura mínima ou máxima;
+
+          Atributos =>
+
+          Inherit: Utilizada para especificar que um elemento deve herdar o valor de uma propriedade de seu elemento
+          pai.
+
+
+
+          FUNDO DOS ELEMENTOS
+
+          Linear/Radial-gradient => Permite criar um gradiente como plano de fundo de um elemento HTML. Ele cria uma
+          transição progressiva entre duas ou mais cores. Orientação em ‘to right’, ‘to lef't’, ‘to top’, ‘to bottom’ ou
+          ângulos em graus (deg). Utilizado em qualquer propriedade que aceite uma imagem.
+
+          Exemplos: background: linear-gradient(45deg, red, blue) / background: linear-gradient(to right, red, yellow,
+          green);
+
+          Background-repeat =>
+
+          Round: Define como uma imagem de fundo será repetida e ajustada para preencher o espaço disponível.
+
+          No-repete: A imagem de fundo é exibida apenas uma vez e não é repetida em nenhuma direção.
+
+          Background-position => Usada para definir a posição de uma imagem de fundo dentro de um elemento.
+
+          Valores: center, left, right, top e bottom.
+
+
+
+          Background-attachment => Utilizada para definir como uma imagem de fundo se comporta em relação à rolagem da
+          página. Ela controla se a imagem de fundo rola junto com o conteúdo da página ou se ela permanece fixa.
+
+
+
+          Scroll (padrão): A imagem de fundo rola junto com o conteúdo da página.
+
+          Fixed: A imagem de fundo fica fixa em relação à janela de visualização (viewport). Ela não rola com o conteúdo
+          da página.
+
+          Local: A imagem de fundo rola junto com o conteúdo do elemento. Este valor é útil para elementos que têm
+          rolagem interna.
+
+          Background-clip => É usada para controlar a área de pintura do fundo de um elemento. Ela determina se o fundo
+          se estende ou não até a borda do elemento interna.
+
+
+
+          border-box: O fundo é cortado na borda do elemento (border box). Isso significa que o fundo se estenderá por
+          baixo da borda do elemento.
+
+
+
+          padding-box: O fundo é cortado na área de preenchimento (padding box). O fundo não se estenderá até a borda,
+          sendo visível apenas nas áreas de preenchimento e conteúdo.
+
+
+
+          content-box: O fundo é cortado na área de conteúdo (content box). O fundo será visível apenas na área de
+          conteúdo, não se estendendo até o preenchimento ou a borda.
+
+
+
+          text: Este valor é usado para cortar o fundo ao texto em primeiro plano. É normalmente usado com elementos de
+          texto para criar efeitos onde o fundo é exibido através do texto.
+
+
+
+          IMAGENS EM BORDAS
+
+          Border-image => Usada para definir uma imagem como borda de um elemento. Você pode usar imagens como bordas em
+          vez das bordas tradicionais de cor sólida.
+
+
+
+          Border-image-source: Esta propriedade especifica a imagem a ser usada como borda do elemento. Pode ser um
+          caminho para um arquivo de imagem ou uma função url(). Por exemplo:
+
+
+
+          Border-image-slice: Define como a imagem da borda é dividida em nove regiões para serem aplicadas às bordas do
+          elemento. Pode ser um valor único, que é aplicado a todas as bordas.
+
+
+
+          Border-image-width: Define a largura da borda da imagem.
+
+
+
+          Border-image-repeat: Específica como a imagem da borda deve se repetir para preencher a área da borda. Pode
+          ter valores como stretch para esticar a imagem, repeat para repetir a imagem, round para repetir a imagem e
+          dimensioná-la para que ela se encaixe perfeitamente ou space para repetir a imagem com espaçamento igual entre
+          elas.
+
+          TIPOS DE FONTES
+
+          Serif => : Essas fontes têm pequenos traços decorativos no final das hastes das letras. Elas são
+          frequentemente associadas a um aspecto mais tradicional e formal. Exemplos incluem Times New Roman e Georgia.
+
+
+
+          Sans-serif => essas fontes não têm os traços decorativos. Elas tendem a ter uma aparência mais moderna e
+          limpa. Exemplos incluem Arial e Helvetica .
+
+
+
+          Script => Fontes que imitam a caligrafia manuscrita, com letras conectadas. Elas podem variar de estilos
+          elegantes a informais. Exemplos incluem Brush Script e Pacífico.
+
+
+
+          Decorative => Essas fontes são altamente estilizadas e muitas vezes temáticas. Elas são mais adequadas para
+          títulos ou designs específicos. Exemplos incluem Comic Sans e Papyrus.
+
+
+
+          Monospace => cada caractere ocupa o mesmo espaço horizontal, independentemente de sua largura real. Elas são
+          frequentemente usadas em programação. Exemplos incluem Courier New e Consolas.
+
+
+
+          Display => Fontes projetadas para uso em títulos e cabeçalhos, geralmente com designs únicos e expressivos.
+          Elas são ótimas para criar impacto visual. Exemplos incluem Impact e Lobster.
+
+
+
+          Font-family => Define um conjunto de fontes semelhantes que compartilham características de estilo. Ao
+          especificar uma font family, você está indicando ao navegador uma lista de fontes para usar, em ordem de
+          preferência.
+
+          Exemplo: “font-family: Arial, Helvetica, sans-serif".
+
+
+
+          @font-face => Define fontes personalizadas p</li>
+    </ul>
+  </section>
 </body>
 <script src="./index.js"></script>
 
