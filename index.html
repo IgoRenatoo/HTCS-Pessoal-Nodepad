@@ -546,7 +546,152 @@
 
 
 
-          @font-face => Define fontes personalizadas p</li>
+          @font-face => Define fontes personalizadas p
+          @import url => É usada para importar folhas de estilo contendo todos os parâmetros e estilos
+
+          Exemplo.: @import url('https://example.com/styles.css');
+
+
+
+          Font-weight => É usada para definir a espessura da fonte em um elemento.
+
+          bold: Define a fonte como negrito.
+
+          bolder: Define a fonte como mais espessa que o pai.
+
+          lighter: Define a fonte como menos espessa que o pai.
+
+          Valores numéricos:
+
+          100 (Thin) 400 (Normal) 700 (Bold) (equivalente a bold)
+
+          200 (Extra Light) 500 (Medium) 800 (Extra Bold)
+
+          300 (Light) 600 (Semi Bold) 900 (Black)
+
+
+
+          Font-variant-caps => Controla a utilização de diferentes variantes de maiúsculas e minúsculas.
+
+          small-caps: Converte letras minúsculas em letras pequenas maiúsculas.
+
+          petite-caps: Usa variantes de "petite caps". Menor que a small-caps.
+
+          titling-caps: Usa variantes de títulos, onde as maiúsculas são desenhadas com um formato especial.
+
+
+
+          Font-variant-numeric => Controla o uso de variantes numéricas.
+
+          ordinal: Usa variantes de ordinal (como 1st, 2nd).
+
+          slashed-zero: Usa zero com barra.
+
+          lining-nums: Usa números de linha base (altura constante).
+
+          oldstyle-nums: Usa números em estilo antigo (alguns números descem abaixo da linha de base).
+
+          proportional-nums: Usa números proporcionais.
+
+          tabular-nums: Usa números tabulares (largura fixa).
+
+          diagonal-fractions: Usa frações diagonais.
+
+          stacked-fractions: Usa frações empilhadas.
+
+
+
+          Line-height => É usada para controlar a altura das linhas de texto. Esta propriedade determina o espaço
+          vertical entre as linhas dentro de um elemento.
+
+
+
+          Font => Aceita, em uma linha de código as propriedades: style / variant / weight / (size/height) / family
+
+          Exemplo.: font: italic small-caps bold 24px/2 arial, roboto;
+
+
+
+          PROPRIEDADE DE TEXTOS
+
+          Text-transform: capitalize => Transforma todo início de palavra em maiúsculo.
+
+          Text-transform: uppercase => Transforma todo texto em maiúsculo.
+
+          Text-transform: lowercase => Transforma todo texto em minúsculo.
+
+          Text-align: center => Centraliza o texto no meio do contêiner.
+
+          Text-align: justify=> Faz com que o texto finalize todas as linhas no final do contêiner.
+
+          Text-decoration: none => Remove qualquer decoração do texto.
+
+          Text-ident: 10px => Define recuo da primeira linha do texto.
+
+          Letter-spacing: 10px => Adiciona um espaçamento entre cada caracter.
+
+          Word-spacing: 10px => Adiciona um espaçamento em cada palavra.
+
+          White-space: pre-line => Múltiplos espaços em branco são condensados em um único espaço, mas quebras de linha
+          são respeitadas.
+
+          White-space: break-spaces => Preserva todos os espaços e quebras de linha.
+
+          Work-wrap: break-word => Realiza a quebra da palavra ao final da borda do contêiner.
+
+          Text-overflow: ellipsis => É usada para especificar como o conteúdo que ultrapassa o espaço disponível em um
+          elemento deve ser tratado quando é cortado ou ocultado.
+
+          Box-shadow / Text-Shadow = > É utilizada para adicionar uma sombra ao elemento.
+
+          Sintaxe: box-shadow: [inset] [horizontal] [vertical] [blur] [spread] [color];
+
+          inset (opcional): Especifica se a sombra deve ser interna (inset) ou externa (ausência de inset).
+
+          horizontal (obrigatório): Define o deslocamento horizontal da sombra em relação ao elemento.
+
+          vertical (obrigatório): Define o deslocamento vertical da sombra em relação ao elemento.
+
+          blur (opcional): Define o desfoque (blur) da sombra, criando um efeito de suavização.
+
+          spread (opcional): Define a expansão da sombra.
+
+          color (obrigatório): Define a cor da sombra.
+
+
+
+          Filter => Pode aceitar funções de filtro separadas por espaço. Cada função de filtro pode ter um valor
+          associado, dependendo do tipo de filtro.
+
+          Sintaxe: filter: <function> [<value>];
+
+              drop-shadow(): Aplica uma sombra ao redor do elemento.
+
+              blur(): Aplica um desfoque ao elemento.
+
+              brightness(): Ajusta o brilho do elemento.
+
+              contrast(): Ajusta o contraste do elemento.
+
+              grayscale(): Converte o elemento em tons de cinza.
+
+              hue-rotate(): Gira a matriz de cores do elemento.
+
+              invert(): Inverte as cores do elemento.
+
+              opacity(): Define a opacidade do elemento.
+
+              saturate(): Ajusta a saturação do elemento.
+
+              sepia(): Aplica uma tonalidade sépia ao elemento.
+
+
+
+              Opacity => É usada para definir o nível de transparência de um elemento.
+
+              Overflow => É usada para controlar o que acontece quando o conteúdo de um elemento excede o tamanho da
+              área de conteúdo do seu contêiner. Podendo ser scroll ou auro, gerando barra de rolando fixa ou
+              automática. </li>
     </ul>
   </section>
 </body>
